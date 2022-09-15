@@ -1,6 +1,6 @@
 from setuptools import setup
 
 setup(
-    name='easy_gold',
-    packages=['easy_gold'],
+    name='feedback_prize',
+    packages=['feedback_prize'],
 )

@@ -2,11 +2,11 @@ import gzip
 import base64
 import os
 from pathlib import Path
-from typing import Dict
+from typing import Any, Dict
 
 
 # this is base64 encoded source code
-file_data: Dict = {file_data}
+file_data: Dict = {file_data}  # type:ignore
 
 
 for path, encoded in file_data.items():
@@ -21,4 +21,4 @@ def run(command):
 
 
 run('python setup.py develop --install-dir /kaggle/working')
-run('python easy_gold/main.py')
+run('python feedback_prize/main.py')
