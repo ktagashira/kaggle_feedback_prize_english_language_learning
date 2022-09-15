@@ -32,8 +32,8 @@ jobs:
         with:
           # README.md says the slug is required, but it's the id
           # https://github.com/harupy/push-kaggle-kernel/commit/266039f1ade2701a789e2c9b1e6cc360659edeff
-          id: tagasyksk/feedback-prize
-          title: github_test
+          id: tagasyksk/feedback-prize-sample-pipeline
+          title: feedback-prize-sample-pipeline
           code_file: ./build/script.py
           language: python
           kernel_type: script
