@@ -6,6 +6,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 import torch
+from dotenv import load_dotenv
 from torch import nn
 from torch.optim import AdamW
 from torch.utils.data import DataLoader, Dataset
@@ -17,6 +18,7 @@ from model import CustomModel
 from utils import (AverageMeter, get_score, is_script_running, seed_everything,
                    timeSince)
 
+load_dotenv()
 seed_everything(42)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 OUTPUT_DIR = os.path.join(CFG.colab_path, 'OUTPUT')
