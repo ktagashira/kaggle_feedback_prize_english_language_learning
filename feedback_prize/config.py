@@ -27,4 +27,4 @@ class CFG:
     trn_fold = [0, 1, 2, 3]
     train = True
 
-    output_path = "/content/drive/MyDrive/kaggle/Feedback-Prize"
+    colab_path = "/content/drive/MyDrive/kaggle/Feedback-Prize"
